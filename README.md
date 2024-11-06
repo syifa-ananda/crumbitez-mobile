@@ -6,7 +6,7 @@
 
 1. Explain what are stateless widgets and stateful widgets, and explain the difference between them.
 
-In Flutter, **StatelessWidgets** are like static displays, they show content that does not change once it is created, such as a simple label or an image. However, **StatefulWidgets** are more dynamic, allowing content to change over time, like a button that updates when clicked or a form that reflects user input. The difference is that StatelessWidgets stay the same once they are built, while StatefulWidgets can update themselves as things change, providing more interactivity in the app.
+Stateless widgets are like static displays, they show content that does not change once it is created, such as a simple label or an image. However, stateful widgets are more dynamic, allowing content to change over time, like a button that updates when clicked or a form that reflects user input. The difference is that stateless widgets stay the same once they are built, while stateful widgets can update themselves as things change, providing more interactivity in the app.
 
 2. Mention the widgets that you have used for this project and its uses.
 
@@ -30,7 +30,7 @@ In Flutter, setState() is used within a StatefulWidget to notify the framework t
  
 4. Explain the difference between const and final keyword.
 
-In Dart, both final and const are used to create variables that cannot be changed after they are set, but they differ in when you set their values. Final allows you to set the value at runtime, it is decided while the program is running, like fetching data or doing calculations. Meanwhile, Const, requires the value to be set before the program even starts running, making it a compile-time constant. 
+In Dart, both final and const are used to create variables that cannot be changed after they are set, but they differ in when we set their values. Final allows us to set the value at runtime, it is decided while the program is running, like fetching data or doing calculations. While const requires the value to be set before the program even starts running, making it a compile-time constant. 
 
 ### Steps
 
