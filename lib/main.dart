@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:crumbitez/menu.dart';
+import 'package:crumbitez/screens/menu.dart';
 
 void main() {
   runApp(const MyApp());
