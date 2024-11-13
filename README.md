@@ -149,7 +149,7 @@ child: InkWell(
 </details>
 
 <details>
-<summary>Assigment 8</summary>
+<summary>Assignment 8</summary>
 
 ### Questions and Answers
 
