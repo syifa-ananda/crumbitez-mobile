@@ -1,6 +1,7 @@
 # Crumbitez Mobile Application
 
-## Assignment 7
+<details>
+<summary>Assignment 7</summary>
 
 ### Questions and Answers
 
@@ -145,9 +146,10 @@ child: InkWell(
     ...
 )
 ```
+</details>
 
-
-## Assigment 8
+<details>
+<summary>Assigment 8</summary>
 
 ### Questions and Answers
 
@@ -468,4 +470,4 @@ class LeftDrawer extends StatelessWidget {
     }
   }
 ```
-
+</details>
