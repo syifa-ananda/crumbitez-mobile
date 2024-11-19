@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:crumbitez/screens/menu.dart';
 import 'package:crumbitez/screens/productentry_form.dart';
+import 'package:crumbitez/screens/list_productentry.dart';
 
 class LeftDrawer extends StatelessWidget {
   const LeftDrawer({super.key});
@@ -51,7 +52,7 @@ class LeftDrawer extends StatelessWidget {
               },
             ),
             ListTile(
-              leading: const Icon(Icons.cookie),
+              leading: const Icon(Icons.add_shopping_cart),
               title: const Text('Add Cookies'),
               // Redirection part to ProductEntryFormPage
               onTap: () {
@@ -62,8 +63,20 @@ class LeftDrawer extends StatelessWidget {
                     ));
               },
             ),
+            ListTile(
+              leading: const Icon(Icons.cookie),
+              title: const Text('Cookies List'),
+              onTap: () {
+                  // Route to the mood page
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => const ProductEntryPage()),
+                  );
+              },
+            ),
           ],
         ),
       );
     }
   }
+
